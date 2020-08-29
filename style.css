@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+  }
+  
+  h1{
+    color: white;
+    text-align: center;
+      font-size: 50px;
+  }
+  
+  #body{
+    width: 40%;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  #res{
+      background-color: lightgray;
+      border: solid;
+      height: 75px;
+      font-size: 30px;
+      border-radius: 25px 25px 0 0;
+      padding: 25px;
+      box-sizing: border-box;
+  }
+  
+  #btn0,#btn1{
+      background-color: lightgreen;
+      color: brown;
+  }
+  
+  #btnClr,#btnEql{
+     background-color: darkgreen;
+     color: white; 
+  }
+  
+  #btnSum,#btnSub,#btnMul,#btnDiv{
+      background-color: white;
+      color: red;
+  }
+  
+  #btn{
+    border-radius: 0 0 25px 25px; 
+  }
+  
+  #btns button{
+      width: 25%;
+      height: 50px;
+      font-size: 25px;
+      margin: 0px;
+      float: left;
+  }
+  
+  p{
+    position: absolute;
+    color: white;
+    bottom: 0;
+  }
